@@ -9,7 +9,8 @@ Drawings made using Microsoft Whiteboard. Quite cool if you haven't used it befo
 Going through all of leetcode 75 as a start, with the addition of some other problems I feel like doing for fun.
 
 # Review List
-724 (Bad solution)
+- 724 (Bad solution)
+- 643 (Not done, need to review sliding window)
 
 # Milestones
 
