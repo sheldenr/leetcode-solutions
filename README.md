@@ -8,6 +8,9 @@ Drawings made using Microsoft Whiteboard. Quite cool if you haven't used it befo
 # Current Study Plan
 Going through all of leetcode 75 as a start, with the addition of some other problems I feel like doing for fun.
 
+# Review List
+724 (Bad solution)
+
 # Milestones
 
 - Starting officially [3/19/2025]
