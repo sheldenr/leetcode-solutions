@@ -10,7 +10,6 @@ Going through all of leetcode 75 as a start, with the addition of some other pro
 
 # Review List
 - 724 (Bad solution)
-- 643 (Not done, need to review sliding window)
 
 # Milestones
 

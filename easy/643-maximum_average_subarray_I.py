@@ -7,7 +7,7 @@ class Solution:
         # for window_start in range(len(nums) - k + 1):
         #     if sum(nums[window_start:window_start + k]) / k > max_avg:
         #         max_avg = sum(nums[window_start:window_start + k]) / k
-        
+
         # return max_avg
 
         # Second planned solution (idk i give up, lookup solution)
