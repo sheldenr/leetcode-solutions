@@ -11,6 +11,7 @@ Going through all of leetcode 75 as a start, with the addition of some other pro
 # Review List
 - 724 (Bad solution)
 - 933 (Bad solution)
+- 206 (I do not feel comfortable on this, at all) :(
 
 # Milestones
 
