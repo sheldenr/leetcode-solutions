@@ -9,7 +9,7 @@ class Solution:
     def guessNumber(self, n: int) -> int:
         if n == 1:
             return 1
-        
+
         pick = n // 2
 
         while guess(pick) != 0:
@@ -17,7 +17,32 @@ class Solution:
                 pick -= 1
             else:
                 pick += 1
-        
+
         return pick
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
