@@ -9,8 +9,8 @@ Drawings made using Microsoft Whiteboard. Quite cool if you haven't used it befo
 Going through all of leetcode 75 as a start, with the addition of some other problems I feel like doing for fun.
 
 # Review List
-- 724 (Bad solution)
 - 933 (Bad solution)
+- 844 (Solution memory complexity could be improved)
 - 206 (Learn how to iterarively reverse a linked-list) 
 
 # Milestones
