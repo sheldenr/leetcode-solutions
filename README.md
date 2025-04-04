@@ -13,6 +13,7 @@ Working through neetcode roadmap. Swapped on [4/5/2025]. Initially started w/ le
 - 844 (Solution memory complexity could be improved)
 - 206 (Learn how to iterarively reverse a linked-list) 
 - 104 (Make sure you can confidently reimplement this)
+- 49 (Learn this solution on your own)
 
 # Milestones
 
