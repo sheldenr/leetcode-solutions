@@ -12,6 +12,7 @@ Going through all of leetcode 75 as a start, with the addition of some other pro
 - 933 (Bad solution)
 - 844 (Solution memory complexity could be improved)
 - 206 (Learn how to iterarively reverse a linked-list) 
+- 104 (Make sure you can confidently reimplement this)
 
 # Milestones
 
