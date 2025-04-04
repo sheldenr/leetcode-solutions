@@ -20,4 +20,4 @@ Going through all of leetcode 75 as a start, with the addition of some other pro
 
 - First Medium Solved [3/20/2025] (151)
 
-
+- Solved 30 Problems [4/4/2025]
