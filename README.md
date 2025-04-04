@@ -6,7 +6,7 @@ Planning to solve all problems using **Python3**.
 Drawings made using Microsoft Whiteboard. Quite cool if you haven't used it before.
 
 # Current Study Plan
-Going through all of leetcode 75 as a start, with the addition of some other problems I feel like doing for fun.
+Working through neetcode roadmap. Swapped on [4/5/2025]. Initially started w/ leetcode 75 but swapped after realizing need the need for learning algorithm by algorithm. 
 
 # Review List
 - 933 (Bad solution)
