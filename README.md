@@ -6,14 +6,13 @@ Planning to solve all problems using **Python3**.
 Drawings made using Microsoft Whiteboard. Quite cool if you haven't used it before.
 
 # Current Study Plan
-Working through neetcode roadmap. Swapped on [4/5/2025]. Initially started w/ leetcode 75 but swapped after realizing need the need for learning algorithm by algorithm. 
+Working through neetcode roadmap, skipping hards. Swapped on from leetcode 75 on [4/5/2025] after realizing the simplicity in learning concept by concept.
 
-# Review List
+# List
 - 933 (Bad solution)
 - 844 (Solution memory complexity could be improved)
 - 206 (Learn how to iterarively reverse a linked-list) 
 - 104 (Make sure you can confidently reimplement this)
-- 49 (Learn this solution on your own)
 
 # Milestones
 
