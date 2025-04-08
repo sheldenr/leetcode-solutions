@@ -1,18 +1,41 @@
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
-        # Naive solution would be sorting each string and then comparing and grouping those
-        # Not coding this atm
+        # Unoptimal solution
+        # Sort each string and store as keys in a hashmap
+        # Store the values of the strings in appropriate key
+        # Return list of values
 
-        # Optimal solution, freq array
-        # This solution is taken from netecode, relearn this 
-        res = defaultdict(list)
+        # counter = {}
 
-        for string in strs:
-            count = [0] * 26
+        # for s in strs:
+        #     sorted_s = "".join(sorted(s))
+        #     if counter.get(sorted_s) == None:
+        #         counter[sorted_s] = [s]
+        #     else:
+        #         counter[sorted_s].append(s)
 
-            for char in string:
-                count[ord(char) - ord("a")] += 1
+        # return list(counter.values())
 
-            res[tuple(count)].append(string)
 
-        return list(res.values())
+
+        # Optimal Solution
+        # def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+
+        # Create a frequency list for each of the strings as the signature
+        # Create a hashmap with the signature as the key and pair the strings to the
+
+        anagram_groups = {}
+
+        for s in strs:
+            frequency_array = [0] * 26 # Stores count for char at proper index
+
+            for char in s:
+                frequency_array[ord(char) - ord("a")] += 1
+
+            frequency_tuple = tuple(frequency_array)
+
+            if anagram_groups.get(frequency_tuple) == None:
+                anagram_groups[frequency_tuple] = [s]
+            else:
+
+
