@@ -7,7 +7,8 @@ class Solution:
         # Scan from end of bucket to start
 
         freq = {}
-        bucket = [None] * len(nums) 
+        bucket_arr = [None] * (len(nums) + 1)
+        j = k
         output = []
 
         for num in nums:
@@ -17,14 +18,23 @@ class Solution:
                 freq[num] = 1
 
         for key, value in freq.items():
-            if bucket[value] is not None:
-                bucket[value].append(key)
+            if bucket_arr[value] is not None:
+                bucket_arr[value].append(key)
             else:
-                bucket[value] = [key]
+                bucket_arr[value] = [ key ]
 
-        for i in range(len(bucket) - 1):
-            pass
-            # go through and get the elements from next k elements from bucket
+        for bucket in bucket_arr[::-1]:
+            if bucket is not None:
+                if len(bucket) > 1:
+                    for num in bucket[::-1]:
+                        if k > 0:
+                            k -= 1
+                            output.append(num)
+                else:
+                    if k > 0:
+                        output.append(bucket[0])
+                        k -= 1
 
-
+        return output
+                
 
