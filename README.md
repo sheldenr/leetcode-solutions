@@ -1,12 +1,12 @@
 # Repository Description
-This is basically just a repository to document my leetcode progress. I have *no* idea what I'm doing so my code will probably start off shit but this is just to see where this goes :)
+This is basically just a repository to document my leetcode progress. I'm only just beginning to understand what I'm doing but I want to document my growth as I go on. :)
 
 Planning to solve all problems using **Python3**.
 
 Drawings made using Microsoft Whiteboard. Quite cool if you haven't used it before.
 
 # Current Study Plan
-Working through neetcode roadmap, skipping hards. Swapped on from leetcode 75 on [4/5/2025] after realizing the simplicity in learning concept by concept.
+Working through Neetcode Roadmap (skipping hards). Swapped from leetcode 75 on [4/5/2025] after realizing the simplicity in learning concept by concept.
 
 # List
 - 933 (Bad solution)
@@ -21,3 +21,5 @@ Working through neetcode roadmap, skipping hards. Swapped on from leetcode 75 on
 - First Medium Solved [3/20/2025] (151)
 
 - Solved 30 Problems [4/4/2025]
+
+- Solved 40 Problems [4/16/2025]
