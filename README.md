@@ -13,7 +13,6 @@ Working through Neetcode Roadmap (skipping hards). Swapped from leetcode 75 on [
 - 7 (Not happy about this one at all
 - 14 Finish this solution, im only putting it here for the moment
 - 844 (Solution memory complexity could be improved)
-- 206 (Learn how to iterarively reverse a linked-list) 
 - 104 (Make sure you can confidently reimplement this)
 - 153 (works but learn other solutions)
 
