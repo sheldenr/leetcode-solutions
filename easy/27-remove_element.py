@@ -5,3 +5,4 @@ class Solution:
             nums.remove(val)
 
         return len(nums)
+        # what is this
