@@ -15,7 +15,6 @@ Working through Neetcode Roadmap (skipping hards). Swapped from leetcode 75 on [
 - 844 (Solution memory complexity could be improved)
 - 104 (Make sure you can confidently reimplement this)
 - 153 (works but learn other solutions)
-- 424 (neetcoded)
 
 # Milestones
 
