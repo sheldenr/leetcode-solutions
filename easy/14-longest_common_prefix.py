@@ -1,13 +1,23 @@
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
-        smallest_len = float('inf')
-        num_of_strings = len(strs)
-        output = ""
+        prefix = ""
 
-        for string in strs:
-            if len(string) <= smallest_len:
-                smallest_len = len(string)
+        shortest_len = float("inf")
+
+        for s in strs:
+            if len(s) < shortest_len:
+                shortest_len = len(s)
+
+        for i in range(shortest_len):
+            prefixes = set()
+
+            for s in strs:    
+                prefixes.add(s[i])
             
-        # for i in range(num_of_strings):
-        #     for j in range(int(smallest_len)):
+            if len(prefixes) > 1:
+                break
+            else:
+                prefix += prefixes.pop()
 
+        return prefix
+                
