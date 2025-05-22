@@ -10,7 +10,7 @@ Working through Neetcode Roadmap (skipping hards). Swapped from leetcode 75 on [
 
 # List
 - 933 (Bad solution)
-- 7 (Not happy about this one at all
+- 7 (Not happy about this one at all)
 - 844 (Solution memory complexity could be improved)
 - 104 (Make sure you can confidently reimplement this)
 - 153 (works but learn other solutions)
