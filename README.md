@@ -30,3 +30,5 @@ Working through Neetcode Roadmap (skipping hards). Swapped from leetcode 75 on [
 - First Hard Solved [5/4/2025]
 
 - Solved 75 Problems [5/16/2025] (Got a bit behind .-.)
+
+- Solved 100 Problems [10/26/2025] (Lost consistency due to internship and work and other life situations. Won't do it again though)
