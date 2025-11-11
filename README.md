@@ -8,12 +8,13 @@ Drawings made using Microsoft Whiteboard. Quite cool if you haven't used it befo
 # Current Study Plan
 Working through Neetcode Roadmap (skipping hards). Swapped from leetcode 75 on [4/5/2025] after realizing the simplicity in learning concept by concept.
 
-# List
+# Review List
 - 933 (Bad solution)
 - 7 (Not happy about this one at all)
 - 844 (Solution memory complexity could be improved)
 - 104 (Make sure you can confidently reimplement this)
 - 153 (works but learn other solutions)
+- 145 (linkedlist hard)
 
 # Milestones
 
