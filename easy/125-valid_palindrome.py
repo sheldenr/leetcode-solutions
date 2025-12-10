@@ -1,11 +1,23 @@
 class Solution:
     def isPalindrome(self, s: str) -> bool:
-        # Certainly a really poor solution, im going to need to go through these one more time
-        char_arr = []
+        l, r = 0, len(s) - 1
 
-        for char in s:
-            if char.isalnum():
-                char_arr.append(char.lower())
+        while l < r:
+            # Shift to proper alphanumeric character
+            while l < len(s) and not s[l].isalnum():
+                l += 1
 
+            while r >= 0 and not s[r].isalnum():
+                r -= 1
 
-        return char_arr == char_arr[::-1]
+            if r < 0 and l >= len(s):
+                break
+
+            # if alphanumeric characters on both sides are not the same return false
+            if (s[l].lower() != s[r].lower()):
+                return False
+
+            l += 1
+            r -= 1
+
+        return True
