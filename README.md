@@ -33,3 +33,5 @@ Working through Neetcode Roadmap (skipping hards). Swapped from leetcode 75 on [
 - Solved 75 Problems [5/16/2025] (Got a bit behind .-.)
 
 - Solved 100 Problems [10/26/2025] (Lost consistency due to internship and work and other life situations. Won't do it again though)
+
+- Back [7/16/2026] (I quit at some point because who does technical interviews, no point in LC anymore amirite? doing this for fun now)
