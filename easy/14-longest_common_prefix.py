@@ -1,23 +1,22 @@
 class Solution:
-    def longestCommonPrefix(self, strs: List[str]) -> str:
-        prefix = ""
+    def longestCommonPrefix(self, strs: list[str]) -> str:
+        """
+        string -> string
+        """
 
-        shortest_len = float("inf")
+        res = []
+        min_length = len(strs[0])
 
         for s in strs:
-            if len(s) < shortest_len:
-                shortest_len = len(s)
+            min_length = min(len(s), min_length)
 
-        for i in range(shortest_len):
-            prefixes = set()
+        for i in range(min_length):
+            for s in strs:
+                curr = strs[0][i]
 
-            for s in strs:    
-                prefixes.add(s[i])
-            
-            if len(prefixes) > 1:
-                break
-            else:
-                prefix += prefixes.pop()
-
-        return prefix
+                if s[i] != curr:
+                    return "".join(res)
                 
+            res.append(curr)
+
+        return "".join(res)
